@@ -1,0 +1,11 @@
+model,MAE,RMSE,MAPE,sMAPE
+"GBM + FUTURE n_records known (optimistic, assumption-dependent)",217.5,292.3,0.36,0.36
+"ARIMA(1,1,1)",874.4,1175.5,1.45,1.44
+"SARIMA(1,1,1)(1,1,0,12)",1527.3,2158.9,2.51,2.57
+Naive,1969.3,2241.5,3.2,3.27
+"GBM (autonomous, no future info -- realistic)",2535.1,2741.6,4.15,4.25
+Seasonal Naive (12mo),1992.8,2800.4,3.26,3.32
+"Linear Regression (autonomous, no future info)",3250.2,3851.3,5.29,5.39
+Moving Average (3mo),3949.7,4099.5,6.52,6.3
+Two-stage: forecast coverage x stable per-record avg,4373.0,4669.0,7.21,6.92
+Exponential Smoothing (Holt-Winters),5362.8,6286.0,8.8,9.37
