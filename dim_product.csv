@@ -1,0 +1,7 @@
+product_name,product_category,shelf_life_days,storage_temp_c
+cryoprecipitate,plasma_derived,365,-25
+fresh_frozen_plasma,plasma,365,-25
+group_O_neg_emergency,red_cells,42,35
+packed_RBC,red_cells,42,35
+platelet_concentrate,platelets,5,22
+whole_blood,red_cells,42,35
